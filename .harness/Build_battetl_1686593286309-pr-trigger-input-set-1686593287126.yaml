@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_battetl_1686593286309-pr-trigger-input-set
+  identifier: Build_battetl_1686593286309prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_battetl_1686593286309
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
